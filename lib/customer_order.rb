@@ -4,7 +4,7 @@ class CustomerOrder
   end
 
   def add(item_array, quantity)
-    @order[item_array] = quantity
+    @order[item_array] = quantity.to_i
   end
 
   def view
